@@ -1,7 +1,7 @@
 # turbo-lamp
 <!DOCTYPE html>
 <html>
-</head>
+<head>
 <title>Fit For A King</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
 <li>Bobby Lynge</li>
 <li>Ryan "Tuck" O'Leary</li>
 <li>Daniel Gailey</li>
-<li>Trey Celaya<li>
+<li>Trey Celaya</li>
 </ul>
 
 <h2>Albums</h2>
@@ -31,12 +31,6 @@
 
 <dt>Creation / Destruction</dt>
 <dd>This is their og album, a really confident debut embracing their strong christian values.</dd></dl>
-
-</body>
-</ht
-            A fast and intense album focused on slap bass techniques. It’s exciting and inspiring for anyone interested in bass guitar.
-        </dd>
-    </dl>
 
 </body>
 </html>

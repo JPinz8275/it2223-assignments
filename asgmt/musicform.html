@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Survey</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Music Survey</h1>
+      
+      <label for="name">Name:</label>
+      <input  type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+
+
+      <fieldset>
+        <legend>Select Your Favorite Genre of Music:</legend>
+
+        <input type="radio" name="genre" id="pop" value="pop">
+        <label for="pop">Pop</label>
+
+        <input type="radio" name="genre" id="hiphop" value="hiphop">
+        <label for="hiphop">Hip-Hop/Rap</label>
+
+        <input type="radio" name="genre" id="rock" value="rock">
+        <label for="rock">Rock/Metal</label>
+
+        <input type="radio" name="genre" id="jazz" value="jazz">
+        <label for="jazz">Jazz</label>
+        
+        <input type="radio" name="genre" id="country" value="country">
+        <label for="country">Country</label>
+
+        <input type="radio" name="genre" id="other" value="other">
+        <label for="other">Other</label>
+      </fieldset><br>
+
+        <label>How often do you listen?</label>
+        <select id="frequency" size="3">
+          <option>Every day</option>
+          <option>A few times a week</option>
+          <option>Once a week</option>
+          <option>Rarely</option>
+        </select><br><br>
+
+      <label for="date">Date you last listened to music:</label>
+      <input type="date" id="date" name="date"><br><br>
+      
+      <label for="comments">What role does music play in your life?</label>
+      <textarea id="comments" name="comments" cols="60" rows="3"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"><br><br>
+    
+    </form>
+
+    <div class="footer">
+      <p>Created by Joel Pinzur</p>
+      <p></p>Email: jtpinzur@mail.lipscomb.edu</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>New Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    label {
+      display: block;
+    }
+    input[type="radio"] + label {
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+  <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" maxlength="30">
+
+    <label>Favorite Day</label>
+      <label><input type="radio" name="favorite_day" value="Monday">Monday</label>
+      <label><input type="radio" name="favorite_day" value="Tuesday">Tuesday</label>
+      <label><input type="radio" name="favorite_day" value="Wednesday">Wednesday</label>
+      <label><input type="radio" name="favorite_day" value="Thursday">Thursday</label>
+      <label><input type="radio" name="favorite_day" value="Friday">Friday</label>
+      <label><input type="radio" name="favorite_day" value="Saturday">Saturday</label>
+      <label><input type="radio" name="favorite_day" value="Sunday">Sunday</label>
+    <br>
+
+    <fieldset>
+      <legend>Shipping Address</legend>
+       
+        <label for="addr1">Addressline1</label>
+        <input type="text" id="addr1" name="addressline1"><br>
+        <label for="addr2">Addressline2</label>
+        <input type="text" id="addr2" name="addressline2"><br>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city"><br>
+        <label for="state">State</label>
+        <input type="text" id="state" name="state"><br>
+        <label for="zip">Zip</label>
+        <input type="text" id="zip" name="zip">
+    </fieldset>
+
+    <input type="image" src="signup.gif" alt="Sign Up">
+    <input type="hidden" name="userid" value="">
+    <label for="pword">Password</label>
+    <input type="password" id="pword" name="pword">
+
+    
+
+</form>
+
+</body>
+</html>

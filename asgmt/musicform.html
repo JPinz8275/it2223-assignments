@@ -11,6 +11,11 @@
       label {
         display: block;
       }
+      .radio-column {
+        display: block;
+        gap: 12px;
+        margin-top: 6px;
+      }
     </style>
   </head>
   <body>
@@ -27,23 +32,14 @@
       <fieldset>
         <legend>Select Your Favorite Genre of Music:</legend>
 
-        <input type="radio" name="genre" id="pop" value="pop">
-        <label for="pop">Pop</label>
-
-        <input type="radio" name="genre" id="hiphop" value="hiphop">
-        <label for="hiphop">Hip-Hop/Rap</label>
-
-        <input type="radio" name="genre" id="rock" value="rock">
-        <label for="rock">Rock/Metal</label>
-
-        <input type="radio" name="genre" id="jazz" value="jazz">
-        <label for="jazz">Jazz</label>
-        
-        <input type="radio" name="genre" id="country" value="country">
-        <label for="country">Country</label>
-
-        <input type="radio" name="genre" id="other" value="other">
-        <label for="other">Other</label>
+        <div class="radio-column">
+          <label><input type="radio" name="genre" id="pop" value="pop">Pop</label>
+          <label><input type="radio" name="genre" id="hiphop" value="hiphop">Hip-Hop/Rap</label>
+          <label><input type="radio" name="genre" id="rock" value="rock">Rock/Metal</label>
+          <label><input type="radio" name="genre" id="jazz" value="jazz">Jazz</label>
+          <label><input type="radio" name="genre" id="country" value="country">Country</label>
+          <label><input type="radio" name="genre" id="other" value="other">Other</label>
+        </div>
       </fieldset><br>
 
         <label>How often do you listen?</label>

@@ -7,7 +7,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  max-width: 1000px;
+  max-width: 968px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;

@@ -36,6 +36,7 @@ main {
 
 section {
   background: white;
+  align: center;
   border-radius: 6px;
   padding: 1.5rem;
   margin-bottom: 1rem;

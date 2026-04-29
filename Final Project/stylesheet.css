@@ -6,7 +6,7 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  gap: 15px;
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;

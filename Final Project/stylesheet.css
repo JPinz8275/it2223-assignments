@@ -47,6 +47,10 @@ button {
   border-radius: 4px;
 }
 
+input[type="radio"] {
+  width: auto;
+  margin-right: 0.5rem;
+
 input, textarea {
   width: 100%;
   padding: 0.5rem;

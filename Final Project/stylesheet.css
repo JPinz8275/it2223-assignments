@@ -10,6 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  max-width: 1000px;
   background: white;
   border-radius: 6px;
 }
@@ -18,13 +19,14 @@ nav {
   background: lightgray;
   padding: 0.3rem 0.7rem;
   border-radius: 4px;
-  width:420px;
+  font-weight:600;
 }
 
 nav a {
   margin: 0.5rem;
   color: black;
   text-decoration: none;
+  font-weight: 400;
 }
 
 main {

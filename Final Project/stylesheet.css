@@ -45,6 +45,7 @@ section {
   border-radius: 6px;
   padding: 1.5rem;
   margin-bottom: 1rem;
+  max-width: 1000px;
 }
 
 button {
